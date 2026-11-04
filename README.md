@@ -64,15 +64,6 @@ It can be used for activities such as:
 
 ---
 
-##  Lab Architecture
-
-![](1-screenshot-title-image.png)
-
-
-Additional target machines can be added to the same virtual network in future projects.
-
----
-
 ##  Lab Configuration
 
 |  Component       |  Configuration   |
@@ -258,6 +249,6 @@ I learned that documenting commands, configuration, screenshots, problems, and s
 
 **SABA FATIMA**
 
-LinkedIn: [https://www.linkedin.com/in/waqaskarim/](https://www.linkedin.com/in/sabafatimamin/)
+LinkedIn: [https://www.linkedin.com/in/sabafatimamin/](https://www.linkedin.com/in/sabafatimamin/)
 
 ---
