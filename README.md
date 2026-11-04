@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔐 Cybersecurity Lab Environment Setup
+#  Cybersecurity Lab Environment Setup
 
 **Building an isolated virtual lab for penetration testing and ethical hacking practice**
 </div>
@@ -17,12 +17,11 @@
   <img src="https://img.shields.io/badge/Kali%20Linux-404040?style=flat-square&labelColor=C00000&logo=kalilinux&logoColor=white" />
   <img src="https://img.shields.io/badge/NetworkWalks-404040?style=flat-square&labelColor=C00000" />
   <img src="https://img.shields.io/badge/Ethical%20Hacking-E87500?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Waqas%20Karim%20CCIE-C00000?style=flat-square" />
 </p>
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project focuses on setting up a **virtual cybersecurity and penetration-testing laboratory** using VirtualBox and Kali Linux.
 
@@ -33,7 +32,7 @@ The lab is configured on a private virtual network so that additional machines c
 ---
 
 
-## 🎯 Objectives
+##  Objectives
 
 The main objectives of this project are to:
 
@@ -49,7 +48,7 @@ The main objectives of this project are to:
 
 ---
 
-## 🛡️ Purpose of the Lab
+##  Purpose of the Lab
 
 The lab provides an isolated and controlled environment for cybersecurity learning and authorized security testing.
 
@@ -65,7 +64,7 @@ It can be used for activities such as:
 
 ---
 
-## 🏗️ Lab Architecture
+##  Lab Architecture
 
 ![](1-screenshot-title-image.png)
 
@@ -74,26 +73,26 @@ Additional target machines can be added to the same virtual network in future pr
 
 ---
 
-## ⚙️ Lab Configuration
+##  Lab Configuration
 
-| 🧩 Component       | ⚙️ Configuration   |
+|  Component       |  Configuration   |
 | ------------------ | ------------------  |
-| 🖥️ Host OS         | macOS (Mac)         |
-| 🧠 Host RAM        | 32 GB               |
-| ⚡ Processor       | Intel Core i9      |
-| 🧰 Hypervisor      | VirtualBox 7.2  |
-| 🐉 Security OS     | Kali Linux 2026.2  |
-| 🧠 Kali RAM        | 2048 MB            |
-| 🌐 Virtual Network | NAT Network        |
-| 📡 Network Address | 10.0.0.0/24        |
-| 🐧 Kali IP Address | 10.0.0.2/24        |
-| 🚪 Default Gateway | 10.0.0.1           |
-| 🌍 DNS Server      | 8.8.8.8            |
-| 🔮 Future VM Range | 10.0.0.3–10.0.0.99 |
+|  Host OS         | macOS (Mac)         |
+|  Host RAM        | 32 GB               |
+|  Processor       | Intel Core i9      |
+|  Hypervisor      | VirtualBox 7.2  |
+|  Security OS     | Kali Linux 2026.2  |
+|  Kali RAM        | 2048 MB            |
+|  Virtual Network | NAT Network        |
+|  Network Address | 10.0.0.0/24        |
+|  Kali IP Address | 10.0.0.2/24        |
+|  Default Gateway | 10.0.0.1           |
+|  DNS Server      | 8.8.8.8            |
+|  Future VM Range | 10.0.0.3–10.0.0.99 |
 
 ---
 
-# 🪜 Lab Setup Procedure
+#  Lab Setup Procedure
 
 ## Step 1. Install 7-Zip
 
@@ -138,7 +137,6 @@ The VM network adapter was configured as follows:
 Adapter 1
 Attached to: NAT Network
 Network:     NatNetwork
-Adapter Type: Intel PRO/1000 MT Desktop
 ```
 
 The VM was allocated:
@@ -172,13 +170,13 @@ A consistent IP address makes it easier to document the lab and reference the Ka
 
 ---
 
-# 🔎 Lab Verification
+#  Lab Verification
 
-| ✅ Test                        | 🧾 Command                      | 🎯 Expected Result              |
+|  Test                        |  Command                      |  Expected Result              |
 | ----------------------------- | ------------------------------- | ------------------------------- |
-| 🌐 Check IP address           | `ip a`                          | Correct Kali IP displayed       |
-| 📡 Test gateway               | `ping 10.0.0.1`                 | Successful replies              |
-| 🌍 Test Internet connectivity | `ping 8.8.8.8`                  | Successful replies              |
+|  Check IP address           | `ip a`                          | Correct Kali IP displayed       |
+|  Test gateway               | `ping 10.0.0.1`                 | Successful replies              |
+|  Test Internet connectivity | `ping 8.8.8.8`                  | Successful replies              |
 
 ### Example Results
 
@@ -195,7 +193,7 @@ DNS:
 
 ---
 
-# 🐞 Problems Encountered & Solutions
+#  Problems Encountered & Solutions
 
 Documenting problems is an important part of the project.
 
@@ -211,12 +209,10 @@ sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0
 
 The network connection was then restarted/rebooted and connectivity was tested again.
 
-> **Important:** Network interface and connection names may differ between systems. Students should first identify their actual connection name before running an `nmcli` command.
-
 ---
 
 
-# 💡 What I Learned
+#  What I Learned
 
 Through this project, I learned how to create and configure a virtual environment for cybersecurity practice.
 
@@ -250,13 +246,7 @@ I learned that documenting commands, configuration, screenshots, problems, and s
 
 ---
 
-# 🔐 Security & Ethical Use
-
-This laboratory is intended strictly for education purposes only.
-
----
-
-# 🔗 Tools & Resources
+#  Tools & Resources
 
 - **7-Zip:** [https://7-zip.org/download.html](https://7-zip.org/download.html)
 - **VirtualBox:** [https://virtualbox.org/wiki/Downloads](https://virtualbox.org/wiki/Downloads)
@@ -264,12 +254,10 @@ This laboratory is intended strictly for education purposes only.
 
 ---
 
-# 👤 Author
+#  Author
 
-**SABA FATIMA**\
+**SABA FATIMA**
 
 LinkedIn: [https://www.linkedin.com/in/waqaskarim/](https://www.linkedin.com/in/sabafatimamin/)
 
 ---
-
-## 📌 Project Information
