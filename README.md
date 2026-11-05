@@ -161,7 +161,7 @@ A consistent IP address makes it easier to document the lab and reference the Ka
 | ----------------------------- | ------------------------------- | ------------------------------- |
 |  Check IP address           | `ip a`                          | Correct Kali IP displayed       |
 |  Test gateway               | `ping 10.0.0.1`                 | Successful replies              |
-|  Test Internet connectivity | `ping 8.8.8.8`                  | Successful replies              |
+|  Test Internet connectivity | `ping -c 4 google.com`                  | Successful replies              |
 
 ### Example Results
 
